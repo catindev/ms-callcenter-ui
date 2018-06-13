@@ -1,0 +1,19 @@
+.bContent {
+    padding: 0 1rem;
+}
+
+.bContent p {
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.bContent span[role=img] {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.bContent__header {
+    font-weight: 500;
+    font-size: 2.25rem;
+    padding-bottom: 10px;
+}

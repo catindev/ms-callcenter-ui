@@ -1,0 +1,39 @@
+.bSidebar {
+    min-width: 350px;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
+.bSidemenu {
+    list-style: none;
+}
+
+.bSidemenu__title {
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: .5rem;
+}
+.bSidemenu__title:first-child {
+    padding-top: 0;
+}
+
+.bSidemenu__item a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #353b3f;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+.bSidemenu__item a:hover {
+    color: #a9649e;
+}
+.bSidemenu__item--active {
+    color: #fff !important;
+    background-color: #a9649e;
+    border-radius: 3px;
+    padding: 10px 5px!important;
+}
